@@ -1,4 +1,4 @@
-import 'package:cilore/models/landing_model.dart';
+import 'package:cilore/models/makanan_model.dart';
 import 'package:flutter/material.dart';
 
 
@@ -23,9 +23,9 @@ class LandingPage extends StatelessWidget {
           Expanded(
             child: ListView.builder(
               padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
-              itemCount: landingpage.length,
+              itemCount: makanan.length,
               itemBuilder: (context, index) {
-                final item = landingpage[index];
+                final item = makanan[index];
                 return Card(
                   margin: EdgeInsets.symmetric(vertical: 8),
                   shape: RoundedRectangleBorder(

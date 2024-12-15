@@ -1,4 +1,4 @@
-import 'package:cilore/models/landing_model.dart';
+import 'package:cilore/models/makanan_model.dart';
 import 'package:flutter/material.dart';
 
 class WishPage extends StatelessWidget {
@@ -30,7 +30,7 @@ class WishPage extends StatelessWidget {
               ),
               itemCount: 2, // Menampilkan 2 item
               itemBuilder: (context, index) {
-                final item = landingpage[index]; // Ambil item sesuai index
+                final item = makanan[index]; // Ambil item sesuai index
                 return Card(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15),

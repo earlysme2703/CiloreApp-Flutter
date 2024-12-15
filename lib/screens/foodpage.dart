@@ -1,8 +1,10 @@
-import 'package:cilore/models/landing_model.dart';
+import 'package:cilore/models/makanan_model.dart';
 import 'package:flutter/material.dart';
 
 
 class Foodpage extends StatelessWidget {
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,9 +25,9 @@ class Foodpage extends StatelessWidget {
           Expanded(
             child: ListView.builder(
               padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
-              itemCount: landingpage.length,
+              itemCount: makanan.length,
               itemBuilder: (context, index) {
-                final item = landingpage[index];
+                final item = makanan[index];
                 return Card(
                   margin: EdgeInsets.symmetric(vertical: 8),
                   shape: RoundedRectangleBorder(
@@ -64,7 +66,7 @@ class Foodpage extends StatelessWidget {
                                 ),
                                 SizedBox(height: 5),
                                 Text(
-                                  "Lokasi: Indonesia", // Placeholder text
+                                  "Lokasi: Cipanas", // Placeholder text
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.black54,
