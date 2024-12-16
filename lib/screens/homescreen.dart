@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _selectedNavbar == 0
                     ? buildHomeContent() // Konten halaman Home
                     : _selectedNavbar == 1
-                    ? LandingPage()
+                    ? Tourpage()
                     : _selectedNavbar == 2
                     ? WishPage()
                     : _selectedNavbar == 3
