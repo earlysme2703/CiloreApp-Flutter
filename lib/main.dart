@@ -1,5 +1,3 @@
-import 'package:cilore/screens/detaildestinasi.dart';
-import 'package:cilore/screens/homescreen.dart';
 import 'package:cilore/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +15,7 @@ class TravelApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "NunitoSans",
       ),
-      home: HomeScreen(),
+      home: Splashscreen(),
     );
   }
 }

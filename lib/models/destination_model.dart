@@ -72,7 +72,7 @@ List<TravelDestination> listDestination = [
       rate: 4.9),
   TravelDestination(
       id: 4,
-      name: "Situ Gunung Cianjur",
+      name: "Situ Gunung Gede",
       category: 'popular',
         image: [
         "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/05/20/FotoJet-2023-05-20T060829927-1000201862.jpg",
@@ -80,7 +80,7 @@ List<TravelDestination> listDestination = [
         "https://www.jabarnews.com/wp-content/uploads/2023/04/Situ-Gunung.jpg",
         "https://rakaminstudent.com/wp-content/uploads/2021/07/Morning_at_Situ_Gunung_by_thesaintdevil.jpg",
       ],
-      location: 'Cianjur, Jawa Barat',
+      location: 'Cipanas, Jawa Barat',
       review: random.nextInt(250) + 20,
       price: 60,
       description: description,
@@ -99,7 +99,7 @@ List<TravelDestination> listDestination = [
       ],
       location: 'Jawa Timur, Indonesia',
       review: random.nextInt(250) + 20,
-      price: 180,
+      price: 15,
       description: description,
       rate: 4.6),
   TravelDestination(
@@ -114,7 +114,7 @@ List<TravelDestination> listDestination = [
       ],
       location: 'Cipanas, Cianjur',
       review: random.nextInt(250) + 20,
-      price: 120,
+      price: 12,
       description: description,
       rate: 4.5),
   TravelDestination(
@@ -127,9 +127,9 @@ List<TravelDestination> listDestination = [
       "https://imgx.sonora.id/crop/0x0:0x0/x/photo/2021/12/16/mie-ayamjpg-20211216030049.jpg",
       "https://th.bing.com/th/id/OIP.x6jCOmXyVq2O29aXG1vlKAHaEt?rs=1&pid=ImgDetMain",
       ],
-      location: 'NTT, Indonesia',
+      location: 'Cipanas, Indonesia',
       review: random.nextInt(250) + 20,
-      price: 350,
+      price: 25,
       description: description,
       rate: 4.7),
   TravelDestination(
@@ -144,7 +144,7 @@ List<TravelDestination> listDestination = [
       ],
       location: 'Bali, Indonesia',
       review: random.nextInt(250) + 20,
-      price: 200,
+      price: 15,
       description: description,
       rate: 4.7),
   TravelDestination(

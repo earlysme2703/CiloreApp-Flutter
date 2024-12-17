@@ -111,16 +111,11 @@ class RekomendasiDestination extends StatelessWidget {
                 TextSpan(
                   children: [
                     TextSpan(
-                      text: "Rp${destination.price}K",
+                      text: "Rp${destination.price}000",
                       style: const TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w500,
                           color: blueTextColor),
-                    ),
-                    TextSpan(
-                      text: "/Orang",
-                      style: TextStyle(
-                          fontSize: 10, color: Colors.black.withOpacity(0.6)),
                     ),
                   ],
                 ),
